@@ -1,7 +1,8 @@
-body {
-    background: rgb(0, 0, 0);
+
+body { /*Toda página*/
+    background: #000000  /*Cor da página */ 
 }
-#titulo_1, .posts, .texto, .links, .post1 {
+#titulo_1, .posts, .texto, .links, .post1 { /*toda a letra da página = cor*/
     color: rgb(255, 255, 255);
 }
 
@@ -33,7 +34,7 @@ body {
     margin-top: 105px;
 }
 
-.link1, .link2, .link3, .link4, .link5 {
+.link1, .link2, .link3, .link4, .link5, .link6 {
     color: #ffffff;
 }  
 

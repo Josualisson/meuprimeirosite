@@ -9,7 +9,7 @@ body { /*Toda página*/
 #titulo_1 {
     color: cornsilk;
     font-style: oblique;
-    text-decoration: underline #ffffff;
+    text-decoration: underline #21ebe1;
     margin-left: 40%;
     font-size: 50px;
     margin-bottom: -1px;
@@ -23,7 +23,7 @@ body { /*Toda página*/
 .minha_foto {
     border-radius: 15px;
     margin-bottom: -15px;
-    border: 5px solid #ffffff;
+    border: 5px solid #21ebe1;
     margin-left: 37%;
 
 }
@@ -34,20 +34,18 @@ body { /*Toda página*/
     margin-top: 105px;
 }
 
-.link1, .link2, .link3, .link4, .link5, .link6 {
-    color: #ffffff;
-}  
+  
 
 .video {
     margin-top: 50px; 
     margin-left: 25%;
         margin-bottom: 15px;
-    border: 5px solid #ffffff;
+    border: 5px solid #21ebe1;
     border-radius: 15px;
 }
 
 .imagem_html {
-    border: 5px solid #ffffff;
+    border: 5px solid #21ebe1;
     border-radius: 15px;
     margin-left: 15%;
 }
@@ -55,4 +53,29 @@ body { /*Toda página*/
 .texto {
     font-size: 40px;
     font-style: oblique;
+}
+
+
+
+.botao{
+    color: black;
+    text-decoration: underline 2px black;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #21ebe1;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin-right: 90%;
+    margin-bottom: 5px;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+.botao:hover{
+    transition: .5s ease all;
+    background-color: white;
+    color: #21ebe1;
+    text-decoration: underline 2px #21ebe1;
 }

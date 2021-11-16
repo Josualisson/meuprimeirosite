@@ -1,20 +1,26 @@
 
 
 body { /*Toda página*/
-    background: #000000  /*Cor da página */ 
+    background: black  /*Cor da página */ 
 }
-#titulo_1, .posts, .texto, .links, .post1 { /*toda a letra da página = cor*/
+.titulo_1, .posts, .texto, .links, .post1 { /*toda a letra da página = cor*/
     color: rgb(255, 255, 255);
 }
 
-#titulo_1 {
-    color: cornsilk;
+.titulo_1 {
+    margin: 0;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
     font-style: oblique;
-    text-decoration: underline #21ebe1;
-    margin-left: 40%;
     font-size: 50px;
-    margin-bottom: -1px;
-
+    text-decoration: underline #21ebe1;
+    margin-bottom: -4px;
+    
+    background-image: linear-gradient(#2cccc4, #06fafa, #00bbd9, #00da84, #a8eb12);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .posts {
@@ -30,9 +36,10 @@ body { /*Toda página*/
 }
 
 .post1 {
-    text-decoration: underline #ffffff 5px;
+    text-decoration: underline #21ebe1 5px;
     margin-left: 16%;
     margin-top: 105px;
+
 }
 
   
@@ -80,3 +87,22 @@ body { /*Toda página*/
     color: #21ebe1;
     text-decoration: underline 2px #21ebe1;
 }
+
+
+body::-webkit-scrollbar{  
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #21ebe100;
+}
+::-webkit-scrollbar-thumb{
+    background: #21ebe1;
+    border-radius: 8px;
+}	
+
+::-webkit-scrollbar-thumb:hover{
+    transition: ease .5s all;
+    background-color: white;
+}
+
+
